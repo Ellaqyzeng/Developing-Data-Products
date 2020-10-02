@@ -1,0 +1,17 @@
+---
+title: "Project_Week2"
+author: "Ellaqyzeng"
+date: "02/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(leaflet)
+my_map <- leaflet() %>% addTiles() 
+my_map <- my_map %>% addMarkers(lat=48.85, lng= 2.35, popup="My Workplace")
+my_map
+```
