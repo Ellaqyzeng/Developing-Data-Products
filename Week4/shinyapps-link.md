@@ -1,1 +1,3 @@
-[link to shinyapps](https://ellaqyzeng.shinyapps.io/week4/)
+Course Project: Shiny Application and Reproducible Pitch
+
+[link to my shiny application](https://ellaqyzeng.shinyapps.io/week4/)
